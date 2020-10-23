@@ -1,1 +1,8 @@
-<p>song works!</p>
+<div class="image" [style.backgroundImage]="image"></div>
+<!-- <div [ngStyle]="{'background-image':'url(' + data.thumbnailUrl + ')'}"></div> -->
+<!-- <div [ngStyle]="{'background-image': 'url(' + data.thumbnailUrl +.png ')'}"></div> -->
+
+
+<iframe id="urlIframe" nombre="urlIframe" scrolling="no" border="none" frameborder="1" [src]="image">
+</iframe>
+<div class="name">{{ data.title }}</div>
